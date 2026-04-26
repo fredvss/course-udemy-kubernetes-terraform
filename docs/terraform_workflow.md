@@ -155,6 +155,7 @@ cidrsubnet("10.0.0.0/8", 8, 1)
 ### 5. Destruir infraestrutura
 
 ```bash
+terraform plan -destroy
 terraform apply -destroy
 # ou:
 terraform apply -destroy -auto-approve
